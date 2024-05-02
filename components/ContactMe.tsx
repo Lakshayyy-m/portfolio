@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 const ContactMe = () => {
   return (
     <div className=" bg-white text-black rounded-t-3xl h-[450px] relative -top-6">
-      <p className="p-20 text-5xl font-bold flex justify-center">
+      <p className="p-20 text-5xl font-bold flex justify-center max-md:text-3xl">
         Find me here
       </p>
-      <div className="w-full flex max-lg:flex-col  max-md:gap-6 max-md:px-3 justify-around">
+      <div className="w-full flex max-lg:flex-col  max-md:gap-6 max-md:px-3 justify-around pb-7">
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -89,7 +89,7 @@ const ContactMe = () => {
           </Link>
         </motion.div>
       </div>
-      <div className="w-full bg-white absolute -bottom-6 h-6" />
+      <div className="w-full bg-white absolute -bottom-6 h-6 " />
     </div>
   );
 };
