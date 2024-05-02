@@ -16,7 +16,7 @@ const TechStack = () => {
       </motion.div>
       <motion.div className="flex justify-around mb-7">
         <motion.div
-          className="flex flex-col justify-center items-center"
+          className="flex flex-col justify-center items-center "
           initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.6 }}
@@ -26,8 +26,9 @@ const TechStack = () => {
             alt="typescript"
             width={100}
             height={100}
+            className="max-md:scale-75"
           />
-          <p>TypeScript</p>
+          <p className="max-md:scale-75">TypeScript</p>
         </motion.div>
         <motion.div className="flex flex-col justify-center items-center">
           <Image
@@ -35,8 +36,9 @@ const TechStack = () => {
             alt="next"
             width={100}
             height={100}
+            className="max-md:scale-75"
           />
-          <p>NextJS</p>
+          <p className="max-md:scale-75">NextJS</p>
         </motion.div>
         <motion.div
           className="flex flex-col justify-center items-center"
@@ -49,8 +51,9 @@ const TechStack = () => {
             alt="tailwind"
             width={100}
             height={100}
+            className="max-md:scale-75"
           />
-          <p>TailWind CSS</p>
+          <p className="max-md:scale-75">TailWind CSS</p>
         </motion.div>
       </motion.div>
       <motion.div
