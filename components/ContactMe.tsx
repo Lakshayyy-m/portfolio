@@ -9,7 +9,7 @@ const ContactMe = () => {
       <p className="p-20 text-5xl font-bold flex justify-center">
         Find me here
       </p>
-      <div className="w-full flex max-md:flex-col max-md:gap-6 max-md:px-3 justify-around">
+      <div className="w-full flex max-lg:flex-col  max-md:gap-6 max-md:px-3 justify-around">
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -26,7 +26,9 @@ const ContactMe = () => {
               width={30}
               height={30}
             />
-            https://www.linkedin.com/in/lakshaymanchanda033
+            https://www.linkedin.com/in/
+            <br />
+            lakshaymanchanda033
           </Link>
         </motion.div>
         <motion.div

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const TechStack = () => {
   return (
-    <motion.div className="p-8 flex flex-col gap-16 ">
+    <motion.div className="p-8 flex flex-col gap-16 w-full">
       <motion.div
         className="w-full flex flex-col items-center"
         initial={{ opacity: 0, y: 30 }}
