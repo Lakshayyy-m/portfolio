@@ -35,7 +35,7 @@ const Projects = () => {
               <p>{project.description}</p>
               <p>Skills: {project.skills}</p>
               <p>
-                Find more at :{" "}
+                Find more at :
                 <Link
                   href={project.link}
                   className="hover:underline underline-offset-4"

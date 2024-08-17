@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import { redirect } from "next/navigation";
 
 const raleway = Raleway({ subsets: ["latin"] });
 
@@ -15,6 +16,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  redirect("https://lakshay-manchanda.vercel.app");
+
   return (
     <html lang="en">
       <body className={`${raleway.className} bg-black text-white bg-[url('/images/photoBackground.jpg')] bg-contain bg-repeat bg-right bg-fixed `}>
